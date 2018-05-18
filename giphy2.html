@@ -11,27 +11,94 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
 </head>
+<!--style for topic buttons -->
+<style>
+.newFlower{
+  border:1px solid;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 5px 10px #888888;  
+}
+</style>
+
 <body>
 
-    <div id='container'>
-        <div class="row">
-            <div class="card card-default">
-            <div class="card-header">
-                  <div id="flowers"></div>
-                  <div class="new-flowers"></div>
-            </div>
-            <div class="card-body">
-               <form id='flower-input'>
-                    <label for="flower-input">Add a flower!</label>
-                    <input type='text' name='new-topic'>
-                    <input id="find-flower" type="submit" value="Flower Search">
-                </form>
-            </div>
+       
+ 
+<div id='container'>
+    <div class="card">
+        <div class="card-header">
+              <div id="flowers"></div>
+              <div class="new-flowers"></div>
         </div>
+        <div class="card-body">
+           <form id='flower-input'>
+                <label for="flower-input">Add a flower!</label>
+                <input type='text' name='new-topic'>
+                <input id="find-flower" type="submit" value="Flower Search">
+            </form>
         </div>
     </div>
+</div>
+
+
+
+ <script type="text/javascript">
+
+ 
+
+//function loadButtons(){
+   // $('#flowers').empty();
+  //  $("#flowers").append("<button onclick='loadButton()' class='btn-btn-sm' data-name='flower'></button>");
+  //$("#flowers").on("click",function(response){
+   //  event.preventDefault();
+    //  var userFlower=$("#flower-input").val();
+     // topics.push(userFlower);
+      //console.log(topics)
+  //});
+
+//};    
+//loadButtons();
+
+//attach buttons from array to giphy
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+// take input from user and attach to new-flowers
+//create new variable to store user input and new div
+//var userFLower=$("<button");
+//append 
+//$("#flower-input").append(newFlower);
+
+
+
+
+
+
+//display user input in new div buttons
+
+
+
+
+
+
+
+
+</script>
+
+ 
+
 </body>
 
-
-<script src="giphywork.js"></script>
 </html>
